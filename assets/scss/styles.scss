@@ -1,0 +1,13 @@
+@import "./variable.scss";
+
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+body {
+  background-color: $white-gray !important;
+  font-family: "DM Sans", sans-serif !important;
+  width: 100%;
+}
