@@ -1,0 +1,20 @@
+@import "../../assets/scss/variable.scss";
+.aside {
+  background-color: $white;
+  width: 18.125rem;
+  position: fixed;
+  height: 100vh;
+  border-bottom-right-radius: 0.9375rem;
+
+  .aside-img {
+    border-bottom: 1px solid $white-gray;
+    padding: 1.6875rem 2.125rem;
+    > img {
+      width: 9.5625rem;
+    }
+  }
+
+  .aside-menu {
+    padding: 0.9375rem 0 0.9375rem 1.75rem;
+  }
+}

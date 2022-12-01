@@ -1,0 +1,63 @@
+@import "../../../../assets/scss/variable.scss";
+.list-menu {
+  .menu-item {
+    display: flex;
+    width: 100%;
+    padding: 0.8125rem 0;
+
+    .menu-link {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      outline: none;
+
+      svg,
+      .menu-link-text {
+        fill: $blue-gray;
+        color: $blue-gray;
+        line-height: 1.875rem;
+        font-weight: 500;
+      }
+
+      svg {
+        font-size: 1.5625rem;
+        height: 100%;
+        margin-right: 0.5rem;
+      }
+
+      .menu-link-text {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        p {
+          font-size: 1rem;
+        }
+        .menu-link-active {
+          width: 0.25rem;
+          background-color: $white;
+          border-radius: 1.5625rem;
+        }
+      }
+
+      &.active,
+      &:hover,
+      &:focus {
+        outline: none;
+        text-decoration: none;
+
+        svg {
+          fill: $blue;
+        }
+        .menu-link-text {
+          p {
+            color: $blue-dark;
+          }
+          .menu-link-active {
+            background-color: $blue;
+          }
+        }
+      }
+    }
+  }
+}
