@@ -11,3 +11,37 @@ body {
   font-family: "DM Sans", sans-serif !important;
   width: 100%;
 }
+
+// Actions Buttons Header
+.action-menu {
+  position: relative;
+
+  span {
+    position: absolute;
+    left: 1.25rem;
+    border-radius: 0.625rem;
+    margin: 0;
+    cursor: default;
+  }
+}
+.button-icon {
+  border: none !important;
+  background: transparent !important;
+
+  svg {
+    color: $gray;
+    fill: $gray;
+  }
+
+  &:hover,
+  &:focus,
+  &[data-active] {
+    background: transparent !important;
+
+    svg {
+      color: $blue-dark;
+      fill: $blue-dark;
+    }
+  }
+}
+//////////////////////
