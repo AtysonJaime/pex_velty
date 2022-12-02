@@ -17,7 +17,7 @@ import { FaRegBell } from "react-icons/fa";
 export default function MensagensMenu() {
   const MsgInfos = [
     {
-      id: "01",
+      id: "0001",
       user: {
         name: "Segun Adebayo",
         photo: "user.png",
@@ -25,7 +25,7 @@ export default function MensagensMenu() {
       mensagem: "Visualizar novo cadastro",
     },
     {
-      id: "02",
+      id: "0002",
       user: {
         name: "Catarina Alberto",
         photo: "user.png",
@@ -33,7 +33,7 @@ export default function MensagensMenu() {
       mensagem: "Nova mensagem enviada",
     },
     {
-      id: "03",
+      id: "0003",
       user: {
         name: "Sandra Fatima",
         photo: "user.png",
