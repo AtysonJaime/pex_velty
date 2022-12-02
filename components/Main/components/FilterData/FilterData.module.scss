@@ -1,0 +1,48 @@
+@import "../../../../assets/scss/variable.scss";
+
+.container-filter-data {
+  max-width: 40.25rem;
+  min-height: 3.8125rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem;
+  box-shadow: 0.875rem 1.0625rem 2.5rem 0.25rem rgba(112, 144, 176, 0.08);
+  border-radius: 1.875rem;
+  padding: 0.625rem 1rem 0.625rem 1.875rem;
+  background-color: $white;
+
+  p {
+    color: $gray-dark;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+
+  .container-inputs-data {
+    display: flex;
+    flex-wrap: wrap;
+    .input-group-data {
+      width: auto;
+      svg {
+        fill: $black;
+        width: 1.125rem;
+      }
+      input {
+        background-color: $white-gray;
+        color: #8f9bba;
+        max-width: 13.375rem;
+        width: 100%;
+        border-radius: 3.0625rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+      }
+      ~ .input-group-data {
+        margin-left: 1.1875rem;
+      }
+    }
+  }
+}
