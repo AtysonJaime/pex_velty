@@ -1,0 +1,37 @@
+@import "../../assets/scss/variable.scss";
+
+.header-page {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  > div {
+    margin-bottom: 0.625rem;
+  }
+
+  .header-page-actions {
+    width: 26.375rem;
+    height: 3.8125rem;
+    background-color: $white;
+    padding: 0.625rem;
+    border-radius: 1.875rem;
+    display: flex;
+
+    .input-busca {
+      width: auto;
+      svg {
+        fill: $blue-dark;
+      }
+      input {
+        background-color: $white-gray;
+        color: #8f9bba;
+        width: 13.375rem;
+        border-radius: 3.0625rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+      }
+    }
+  }
+}
