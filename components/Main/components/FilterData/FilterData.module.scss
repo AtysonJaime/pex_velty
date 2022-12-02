@@ -1,5 +1,8 @@
 @import "../../../../assets/scss/variable.scss";
 
+.container-filter {
+  padding: 1.8125rem 1.25rem 5.1875rem 1.25rem;
+}
 .container-filter-data {
   max-width: 40.25rem;
   min-height: 3.8125rem;
@@ -26,6 +29,7 @@
     flex-wrap: wrap;
     .input-group-data {
       width: auto;
+      margin-right: 1.1875rem;
       svg {
         fill: $black;
         width: 1.125rem;
@@ -39,9 +43,6 @@
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.25rem;
-      }
-      ~ .input-group-data {
-        margin-left: 1.1875rem;
       }
     }
   }
