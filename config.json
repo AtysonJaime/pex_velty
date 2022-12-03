@@ -1,0 +1,375 @@
+{
+  "main": {
+    "headerProps": {
+      "title": "Velty Dashboard",
+      "breadcrumb": [
+        {
+          "name": "Principal",
+          "isCurrentPage": false,
+          "link": "/"
+        },
+        {
+          "name": "Dashboard",
+          "isCurrentPage": true,
+          "link": "/"
+        }
+      ]
+    },
+    "cardMoneyProps": [
+      {
+        "id": "001",
+        "colorBox": "red-card",
+        "TituloSuperior": "R$ 312.321,00",
+        "SubtituloSuperior": "Receira total",
+        "TituloInferior": "R$ 67,20",
+        "SubtituloInferior": "Média por cliente"
+      },
+      {
+        "id": "002",
+        "colorBox": "blue-card",
+        "TituloSuperior": "R$ 74.421,00",
+        "SubtituloSuperior": "Lucro total",
+        "TituloInferior": "R$ 42,30",
+        "SubtituloInferior": "Média por cliente"
+      },
+      {
+        "id": "003",
+        "colorBox": "green-card",
+        "TituloSuperior": "R$ 3,12",
+        "SubtituloSuperior": "Lucro por venda",
+        "TituloInferior": "R$ 12,40",
+        "SubtituloInferior": "Média por cliente"
+      }
+    ],
+    "cardInfoProps": [
+      {
+        "id": "000001",
+        "title": "3.312",
+        "subtitle": "Clientes ativos",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+2,6% (+12)"
+      },
+      {
+        "id": "000002",
+        "title": "12",
+        "subtitle": "Novos clientes",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+15,3% (+2)"
+      },
+      {
+        "id": "000003",
+        "title": "42",
+        "subtitle": "Clientes adicionados",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+42,6% (+8)"
+      },
+      {
+        "id": "000004",
+        "title": "R$ 142,32",
+        "subtitle": "LTV",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "red",
+        "span": "-22,6% (+R$ 12,20)"
+      },
+      {
+        "id": "000005",
+        "title": "24,3%",
+        "subtitle": "Turnover",
+        "ahBadge": true,
+        "badge": "32",
+        "colorSpan": "green",
+        "span": "+42,6% (+3)"
+      },
+      {
+        "id": "000006",
+        "title": "54,42%",
+        "subtitle": "Turnover recuperado",
+        "ahBadge": true,
+        "badge": "12",
+        "colorSpan": "green",
+        "span": "+32,6% (+6)"
+      }
+    ],
+    "cardInfoComIconeProps": [
+      {
+        "id": "0000001",
+        "title": "312.321",
+        "subtitle": "Cotações realizadas",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+15,3% (+223)"
+      },
+      {
+        "id": "0000002",
+        "title": "212.012",
+        "subtitle": "Vendas finalizadas",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+15,3% (+223)"
+      },
+      {
+        "id": "0000003",
+        "title": "42.021",
+        "subtitle": "Cotações não concluídas",
+        "ahBadge": false,
+        "badge": "",
+        "colorSpan": "green",
+        "span": "+15,3% (+223)"
+      },
+      {
+        "id": "0000004",
+        "title": "3.122",
+        "subtitle": "Cotações não respondidas",
+        "ahBadge": true,
+        "badge": "3%",
+        "colorSpan": "green",
+        "span": "+15,3% (+223)"
+      }
+    ],
+    "tablesInfosProps": [
+      {
+        "id": "0000000000000001",
+        "title": "Planos",
+        "subtitle": "123 planos ativos",
+        "theadItens": [
+          {
+            "id": "101",
+            "name": "Clube"
+          },
+          {
+            "id": "102",
+            "name": "Clientes"
+          },
+          {
+            "id": "103",
+            "name": "Preço"
+          }
+        ],
+        "tbodyItens": [
+          {
+            "id": "00000001",
+            "trItens": [
+              {
+                "id": "00001",
+                "name": "Estagiários"
+              },
+              {
+                "id": "0001",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0006",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000002",
+            "trItens": [
+              {
+                "id": "00002",
+                "name": "Diretoria"
+              },
+              {
+                "id": "0002",
+                "name": "312 clientes"
+              },
+
+              {
+                "id": "0004",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000003",
+            "trItens": [
+              {
+                "id": "00003",
+                "name": "Geral"
+              },
+              {
+                "id": "0003",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0008",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000004",
+            "trItens": [
+              {
+                "id": "00004",
+                "name": "Almoxarifado"
+              },
+              {
+                "id": "0004",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0009",
+                "name": "R$ 123,90"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0000000000000002",
+        "title": "Categorias",
+        "subtitle": "4 categorias em uso",
+        "theadItens": [
+          {
+            "id": "101",
+            "name": "Clube"
+          },
+          {
+            "id": "102",
+            "name": "Clientes"
+          },
+          {
+            "id": "103",
+            "name": "Preço médio"
+          }
+        ],
+        "tbodyItens": [
+          {
+            "id": "00000001",
+            "trItens": [
+              {
+                "id": "00011",
+                "name": "6 vendas"
+              },
+              {
+                "id": "0011",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0016",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000002",
+            "trItens": [
+              {
+                "id": "00012",
+                "name": "12 vendas"
+              },
+              {
+                "id": "1102",
+                "name": "312 clientes"
+              },
+              {
+                "id": "1106",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000003",
+            "trItens": [
+              {
+                "id": "00013",
+                "name": "24 vendas"
+              },
+              {
+                "id": "010103",
+                "name": "312 clientes"
+              },
+              {
+                "id": "011007",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "00000004",
+            "trItens": [
+              {
+                "id": "00014",
+                "name": "Personalizado"
+              },
+              {
+                "id": "110103",
+                "name": "312 clientes"
+              },
+              {
+                "id": "001108",
+                "name": "R$ 123,90"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0000000000000003",
+        "title": "Tipos de planos",
+        "subtitle": "2 tipos de uso",
+        "theadItens": [
+          {
+            "id": "101",
+            "name": "Clube"
+          },
+          {
+            "id": "102",
+            "name": "Clientes"
+          },
+          {
+            "id": "103",
+            "name": "Preço médio"
+          }
+        ],
+        "tbodyItens": [
+          {
+            "id": "10000001",
+            "trItens": [
+              {
+                "id": "00011",
+                "name": "Construtoras"
+              },
+              {
+                "id": "0101",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0106",
+                "name": "R$ 123,90"
+              }
+            ]
+          },
+          {
+            "id": "10000002",
+            "trItens": [
+              {
+                "id": "00012",
+                "name": "Clientes finais"
+              },
+              {
+                "id": "0102",
+                "name": "312 clientes"
+              },
+              {
+                "id": "0107",
+                "name": "R$ 123,90"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
