@@ -1,3 +1,4 @@
+import { Hide } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import Aside from "../components/Aside";
@@ -11,7 +12,9 @@ export default function Home() {
   return (
     <>
       <StyledPage>
-        <Aside />
+        <Hide below="md">
+          <Aside />
+        </Hide>
         <Main />
       </StyledPage>
     </>

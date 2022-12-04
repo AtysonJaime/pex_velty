@@ -13,15 +13,21 @@
 
   .header-page-actions {
     width: 26.375rem;
-    height: 3.8125rem;
+    min-height: 3.8125rem;
     background-color: $white;
     padding: 0.625rem;
     border-radius: 1.875rem;
+    flex-wrap: wrap;
     display: flex;
     box-shadow: 0.875rem 1.0625rem 2.5rem 0.25rem rgba(112, 144, 176, 0.08);
 
     .input-busca {
       width: auto;
+
+      @media (max-width: 467px) {
+        margin-bottom: 0.625rem;
+      }
+
       svg {
         fill: $blue-dark;
       }
@@ -34,6 +40,22 @@
         font-weight: 400;
         line-height: 1.25rem;
       }
+    }
+  }
+
+  .header-page-sidebar {
+    display: flex;
+    align-items: center;
+
+    .header-page-sidebar-button {
+      margin-right: 10px;
+    }
+  }
+
+  .header-page-profile {
+    button {
+      padding: 0;
+      padding-left: 1.25rem;
     }
   }
 }

@@ -19,6 +19,11 @@ const StyledSection = styled.section`
   .container-cards {
     padding: 0.625rem 1rem;
   }
+
+  @media (max-width: 769px) {
+    width: 100%;
+    margin-left: 0;
+  }
 `;
 
 export default function Main() {
