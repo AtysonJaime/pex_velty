@@ -18,7 +18,6 @@ const OnboardingScreen = ({ navigation }) => {
       {/* <Text>Open up App.js to start working on your app!</Text> */}
       <Button
         label="Continuar"
-        navigation
         onPress={() => {
           navigation.navigate("Login");
         }}

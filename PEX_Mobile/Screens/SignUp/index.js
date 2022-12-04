@@ -1,20 +1,22 @@
 import React from "react";
 import { StyleSheet, View, Text, Image, TextInput } from "react-native";
+import BouncyCheckbox from "react-native-bouncy-checkbox";
 import ButtonLink from "../../components/ButtonLink";
 import ButtonTotal from "../../components/ButtonTotal";
 
-const loginImage = require("../../assets/images/LoginImage.png");
-const LoginScreen = ({ navigation }) => {
+const loginImage = require("../../assets/images/SignUpImage.png");
+const SignUpScreen = ({ navigation }) => {
   const [emailInput, setEmailInput] = React.useState("");
   const [senhaInput, setSenhaInput] = React.useState("");
+  const [isSelected, setSelection] = React.useState(false);
   return (
     <View style={styles.container}>
       <Image source={loginImage} style={styles.image}></Image>
       <View style={styles.containerInterno}>
-        <Text style={styles.title}>Bem vindo a PEX</Text>
+        <Text style={styles.title}>Crie sua conta na PEX</Text>
         <Text style={styles.subtitle}>
-          Informe os seus dados para ter acesso a um mundo de economia para sua
-          obra.
+          Informe o seus dados para criar sua conta na PEX e economizar muito na
+          sua obra
         </Text>
       </View>
       <View style={styles.containerInterno}>
@@ -31,18 +33,25 @@ const LoginScreen = ({ navigation }) => {
           placeholder="Senha"
         />
       </View>
-      <View style={styles.containerLink}>
-        <ButtonLink label="Esqueci minha senha" />
+      <View style={styles.checkboxContainer}>
+        <BouncyCheckbox
+          onPress={(isChecked) => {
+            setSelection(isChecked);
+          }}
+        />
+        <Text style={styles.label}>
+          Li e aceito os Termos de serviço e políticia de privacidade
+        </Text>
       </View>
       <View style={styles.containerAcesso}>
-        <ButtonTotal label="Acessar" />
+        <ButtonTotal label="Continuar" />
       </View>
       <View style={styles.containerCriarConta}>
-        <Text style={styles.textCriarConta}>Não possui uma conta?</Text>
+        <Text style={styles.textCriarConta}>já possui uma conta?</Text>
         <ButtonLink
-          label="Criar conta"
+          label="Acessar"
           onPress={() => {
-            navigation.navigate("SignUp");
+            navigation.navigate("Login");
           }}
         />
       </View>
@@ -50,7 +59,7 @@ const LoginScreen = ({ navigation }) => {
   );
 };
 
-export default LoginScreen;
+export default SignUpScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -92,11 +101,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 
-  containerLink: {
+  checkboxContainer: {
     paddingHorizontal: 30,
     display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: "row",
   },
 
   containerAcesso: {

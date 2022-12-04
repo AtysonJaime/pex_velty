@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     display: "flex",
     justifyContent: "center",
+    alignItems: "center",
   },
   buttonIcon: {
     marginLeft: 5,
