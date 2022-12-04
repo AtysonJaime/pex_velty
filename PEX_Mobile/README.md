@@ -22,6 +22,28 @@ Esse projeto utiliza-se das seguintes tecnologias:
 | - [React Native](https://reactnative.dev) |
 | - [EXPO](https://expo.dev)                |
 
+## ⌨️ Intruções
+
+> _Obs: É Necessario instalar o aplicativo do Expo em seu celular, ou ter uma maquina virtual para Android ou IOS em sua maquina._
+
+Para rodar o projeto em sua maquina siga os seguintes passos:
+
+1. Clone o projeto em sua maquina seguindo o modo que você achar melhor;
+2. Caminhe até a pasta do projeto mobile chamada PEX_Mobile;
+3. Abra o terminal na pasta do projeto, e digite os seguintes comandos:
+
+   ```node
+       npm install
+   ```
+
+4. Após instalar todas as dependencias necessárias, rode o seguinte comando:
+
+   ```node
+       npx expo start
+   ```
+
+5. Pronto, seu projeto esterá rodando e após isso é so seguir as instruções no terminal.
+
 ## 🖼️ Layout
 
 O layout a ser seguido foi nos passado atraves do Figma, contendo tanto o projeto web quando o projeto mobile.

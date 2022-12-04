@@ -26,6 +26,26 @@ Esse projeto utiliza-se das seguintes tecnologias:
 | - [Versel](https://vercel.com)                       |
 | - [Chakra](https://chakra-ui.com)                    |
 
+## ⌨️ Intruções
+
+Para rodar o projeto em sua maquina siga os seguintes passos:
+
+1. Clone o projeto em sua maquina seguindo o modo que você achar melhor;
+2. Caminhe até a pasta do projeto;
+3. Abra o terminal na pasta do projeto, e digite os seguintes comandos:
+
+   ```node
+       npm install
+   ```
+
+4. Após instalar todas as dependencias necessárias, rode o seguinte comando:
+
+   ```node
+       npm run dev
+   ```
+
+5. Pronto, seu projeto esterá rodando em localhost.
+
 ## 🖼️ Layout
 
 O layout a ser seguido foi nos passado atraves do Figma, contendo tanto o projeto web quando o projeto mobile.
